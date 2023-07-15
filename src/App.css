@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color:#B1D9DB;
+  color: aliceblue;
+  }
+.App{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height:100%;
+   }
+h2{
+  margin-top: 10%;
+  margin-left: 20px;
+}
+.icon img {
+  width: 461px;
+  height: 502px;
+  top: 220px;
+ margin-left: 60px;
+  transform: rotate(-10deg);
+}
+.icon{
+  width: 30%;
+  height: auto;
+}
+.myForm{
+  width: 70%;
+  height: 100%;
+  background-color: #FFFFFF;
+  color: black;
+ border-radius: 30px;
+ }
+ form {
+  margin-top: 5%;
+  margin-left: 25%;
+  width: 500px;
+  height: 550px;
+  }
+ .logo{
+  display: flex;
+  justify-content: space-between;
+ }
+ h1{
+  margin-bottom: 10px;
+ }
+ span{
+  margin: 20px;
+  border: 1px solid rgb(223, 218, 218) ;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+ }
+ span img{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+ }
+ p{
+ text-align: center;
+ color:rgb(189, 186, 186) ;
+ }
+ input{
+  display: block;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid rgb(165, 162, 162);
+
+ }
+ input:focus{
+  outline: none;
+ }
+ button{
+ width: 60%;
+ padding: 10px;
+ font-size: 16px;
+ background-color: #8fd6da;
+ color: #FFFFFF;
+ margin-left: 20%;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ border: none;
+border-radius: 10px;
+ }
+
+ #sucess{
+  color: rgb(21, 119, 21);
+ }
+ #error{
+  color: rgb(199, 38, 9);
+ }
